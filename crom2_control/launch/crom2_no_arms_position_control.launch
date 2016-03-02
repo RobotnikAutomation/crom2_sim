@@ -7,7 +7,9 @@
   <!-- load the controllers -->
   <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
     output="screen" ns="/crom2" args="--namespace=/crom2
-                      torso_controller                        
+                      waist_controller
+                      head_pan_position_controller   
+					  head_tilt_position_controller                         
                       joint_state_controller
                       "/>
 
